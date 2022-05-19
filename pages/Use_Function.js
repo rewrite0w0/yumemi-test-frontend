@@ -5,7 +5,7 @@ import APIKEY from './api/APIKEY'
 
 export default function Use_Function() {
   const [state, setState] = useState({})
-  const [temp, setTemp] = useState({})
+  // const [temp, setTemp] = useState({})
   // const [loading, setLoading] = useState(true)
 
   console.log(process.env.APIKEY)
@@ -41,17 +41,17 @@ export default function Use_Function() {
 
   // const changeSelection = (idx) => {}
 
-  const renderItem = (props) => {
-    return (
-      <div
-        key={props.prefCode}
-        style={{ margin: '5px', display: 'inline-block' }}
-      >
-        <input type="checkbox" />
-        {props.prefName}
-      </div>
-    )
-  }
+  // const renderItem = (props) => {
+  //   return (
+  //     <div
+  //       key={props.prefCode}
+  //       style={{ margin: '5px', display: 'inline-block' }}
+  //     >
+  //       <input type="checkbox" />
+  //       {props.prefName}
+  //     </div>
+  //   )
+  // }
 
   // console.log(temp)
   const options = {
