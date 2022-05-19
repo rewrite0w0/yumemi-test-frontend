@@ -10,7 +10,7 @@ const nextConfig = {
     loader: 'akamai',
     path: '',
   },
-  assetPrefix: isProd ? '/yumemi-test-frontend/' : '',
+  // assetPrefix: isProd ? '/yumemi-test-frontend/' : '',
   // assetPrefix: !debug ? "/yumemi-frontend-test/" : '',
 }
 
