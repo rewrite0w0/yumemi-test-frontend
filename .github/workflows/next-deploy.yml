@@ -40,6 +40,7 @@ jobs:
 
       - name: next build
         run: npm run build
+        timeout-minutes: 5
 
       - name: next export
         run: npm run export
@@ -51,5 +52,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.DEPLOY_TOKEN }}
-          # apikey: ${{ secrets.APIKEY }}
+          APIKEY: ${{ secrets.APIKEY }}
           publish_dir: ./out
