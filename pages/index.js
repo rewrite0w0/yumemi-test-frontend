@@ -13,10 +13,12 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Link href="/">재귀가 뭐죠?</Link>
-        <Link href="/Use_Class">현 별 인구 추이</Link>
-        <Link href="/Use_Function">현 별 인구 추이(구현중)</Link>
-        <Link href="/MapBox_Tutorial">전국 추이</Link>
+        <Link href="/yumemi-test-frontend/">재귀가 뭐죠?</Link>
+        <Link href="/yumemi-test-frontend/Use_Class">현 별 인구 추이</Link>
+        <Link href="/yumemi-test-frontend/Use_Function">
+          현 별 인구 추이(구현중)
+        </Link>
+        <Link href="/yumemi-test-frontend/MapBox_Tutorial">전국 추이</Link>
       </main>
     </div>
   )
